@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Valentine’s Day ❤️</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Background floating photos container -->
+<div id="floatingPhotos"></div>
+
+<!-- PAGE 1 -->
+<div class="container" id="page1">
+  <h1>💌 Hi My Love</h1>
+  <p>Enter your unique name in Myanglish(You once said you don't prefer it when I call you)</p>
+  <input type="password" id="password" placeholder="Your nickname ❤️">
+  <button onclick="unlock()">Unlock 💖</button>
+  <p id="error" class="error">Wrong nickname 🥺</p>
+</div>
+
+<!-- PAGE 2 -->
+<div class="container hidden" id="page2">
+  <h1>Happy Valentine’s Day ❤️</h1>
+  <p>
+    From the moment you came into my life,<br>
+    everything felt softer, warmer, and brighter.<br><br>
+    You are my favorite person,<br>
+    my safe place,<br>
+    and my forever Valentine 💕
+  </p>
+
+  <h1 class="question">Will you be my Valentine too? 💖</h1>
+  <button onclick="goToGallery()">YES 💕</button>
+</div>
+
+<!-- PAGE 3 -->
+<div class="container hidden" id="page3">
+  <h1>The Beauty of you❤️</h1>
+  <p>You are simply perfect</p>
+
+  <div class="heart-gallery">
+    <img src="./1.JPG" class="img1">
+    <img src="./2.JPG" class="img2">
+    <img src="./3.JPG" class="img3">
+    <img src="./4.JPG" class="img4">
+    <img src="./5.JPG" class="img5">
+  </div>
+
+  <p class="ending">I love you endlessly 🌸</p>
+</div>
+
+<!-- Music -->
+<audio id="bgMusic" src="music.mp3" loop></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
